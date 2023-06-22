@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: orange;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.blog {
+  width: 800px;　画像3つが横1列に並ぶようにpx単位で微調整をする
+  height: 800px;
+  background-color: gold
+}
+
+.blog-item {
+  border: 10px solid #f7f7f7;
+}
+
+.blog-image {　画像の縦、横幅を微調整する。参考画像の状態はあくまで変換した際のもの
+  width: 150px;
+  height: 150px;
+}
+
+.blog-text {
+  letter-spacing: 0.1em;
+  position: absolute;
+  top: 100px;
+  left: 58px;
+  background-color: orange;
+  color: white;
+}
+
+.footer {
+  width: 100%;
+  background-color: #848282;
+}
