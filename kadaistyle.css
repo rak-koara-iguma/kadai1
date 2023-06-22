@@ -18,31 +18,71 @@ main {
   margin-bottom: 50px;
 }
 
-.blog {
-  width: 800px;　画像3つが横1列に並ぶようにpx単位で微調整をする
+.blog {　画像3つが横1列に並ぶようにpx単位で微調整をする
+  width: 90%;
   height: 800px;
-  background-color: gold
+  background-color: #f7f7f7;
 }
 
 .blog-item {
   border: 10px solid #f7f7f7;
+  margin-bottom: 20px;
 }
 
 .blog-image {　画像の縦、横幅を微調整する。参考画像の状態はあくまで変換した際のもの
-  width: 150px;
-  height: 150px;
+  width: 600px;
+  height: 600px;
 }
 
-.blog-text {
+.blog-title {
   letter-spacing: 0.1em;
   position: absolute;
   top: 100px;
-  left: 58px;
+  left: 0px;
   background-color: orange;
   color: white;
 }
 
-.footer {
+.blog-title2 {
+  letter-spacing: 0.1em;
+  position: absolute;
+  top: 840px;
+  left: 0px;
+  background-color: orange;
+  color: white;
+}
+
+.blog-title3 {
+  letter-spacing: 0.1em;
+  position: absolute;
+  top: 1580px;
+  left: 0px;
+  background-color: orange;
+  color: white;
+}
+
+footer {
   width: 100%;
   background-color: #848282;
+}
+
+@media screen and (max-width: 425px) {
+  header {
+    width: 100%;
+    height: 50px;
+  }
+  
+  main {
+    width: 100%;
+  }
+  
+  .blog {
+    width: 90%;
+    margin: 20px;
+  }
+  
+  .blog-image {
+    width: 90%;
+    height: 150px;
+  }
 }
